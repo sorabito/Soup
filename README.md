@@ -3,3 +3,11 @@ A port of from Python of Beautiful Soup (http://www.crummy.com/software/Beautifu
 
 ## License
 Code commited to this repository will be automatically under [MIT](https://opensource.org/licenses/mit-license.php) license.
+
+## Install
+```
+Metacello new
+  baseline: 'Soup';
+  repository: 'github://sorabito/Soup/pharo-repository';
+  load.
+```
